@@ -13,21 +13,25 @@
 </head>
 <body>
     <header class="header">
-            <!-- Меню -->
-            <div class="container header-container">
-                <nav class="site-nav">
-                    <a class="header-logo-text" href="#"><span class="web-word">Web</span>Studio</a>
-                    <ul class="header-links-list">
-                        <li><a class="header-link" href="./index.html">Студия</a></li>
-                        <li><a class="header-link current" href="./portfolio.html">Портфолио</a></li>
-                        <li><a class="header-link contacts" href="#">Контакты</a></li>
-                    </ul>
-                </nav>
+        <!-- Меню -->
+        <div class="container header-container">
+            <nav class="site-nav">
+                <a class="header-logo-text" href="#"><span class="web-word">Web</span>Studio</a>
                 <ul class="header-links-list">
-                    <li><a class="header-contacts" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                    <li><a class="header-contacts" href="tel:+380991111111">+38 099 111 11 11</a></li>
+                    <li><a class="header-link current" href="./index.html">Студия</a></li>
+                    <li><a class="header-link" href="./portfolio.html">Портфолио</a></li>
+                    <li><a class="header-link contacts" href="#">Контакты</a></li>
                 </ul>
-            </div>
+            </nav>
+            <ul class="header-links-list">
+                <li><svg class="envelope-icon"><use href="./images/icons.svg#icon-envelope"></use></svg>
+                    <a class="header-contacts" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                </li>
+                <li><svg class="smartphone-icon"><use href="./images/icons.svg#icon-smartphone"></use></svg>
+                    <a class="header-contacts" href="tel:+380991111111">+38 099 111 11 11</a>
+                </li>
+            </ul>
+        </div>
     </header>
     <main>
         <!-- Portfolio -->
@@ -74,16 +78,27 @@
         </section>
     </main>
     <footer class="centered">
-        <div class="container">
+        <div class="container footer-container">
             <!-- Контакты -->
-            <a class="footer-logo-text" href="#"><span class="web-word">Web</span>Studio</a>
-            <address>
-                <ul class="footer-info">
-                    <li><a class="footer-address" href="https://goo.gl/maps/PEtUD6FRup9HMeJw8" target="_blank" rel="noreferrer noopener">г. Киев, пр-т Леси Украинки 26</a></li>
-                    <li><a class="footer-contacts" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                    <li><a class="footer-contacts" href="tel:+380961111111">+38 096 111 11 11</a></li>
+            <div><a class="footer-logo-text" href="#"><span class="web-word">Web</span>Studio</a>
+                <address>
+                    <ul class="footer-info">
+                        <li><a class="footer-address" href="https://goo.gl/maps/PEtUD6FRup9HMeJw8" target="_blank"
+                                rel="noreferrer noopener">г. Киев, пр-т Леси Украинки 26</a></li>
+                        <li><a class="footer-contacts" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                        <li><a class="footer-contacts" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                    </ul>
+                </address>
+            </div>
+            <div class="footer-social-media-box">
+                <h2 class="footer-social-media-title">присоединяйтесь</h2>
+                <ul class="footer-social-media-icons">
+                    <li><svg class="footer-social-icon"><use href="./images/icons.svg#icon-instagram"></use></svg></li>
+                    <li><svg class="footer-social-icon"><use href="./images/icons.svg#icon-twitter"></use></svg></li>
+                    <li><svg class="footer-social-icon"><use href="./images/icons.svg#icon-facebook"></use></svg></li>
+                    <li><svg class="footer-social-icon"><use href="./images/icons.svg#icon-linkedin"></use></svg></li>
                 </ul>
-            </address>
+            </div>
         </div>
     </footer>
 </body>
