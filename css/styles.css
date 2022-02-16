@@ -104,6 +104,14 @@ a:focus {
 .header-contacts {
   color: inherit;
 }
+.envelope-icon {
+  width: 16px;
+  height: 12px;
+}
+.smartphone-icon {
+  width: 10px;
+  height: 16px;
+}
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -238,6 +246,14 @@ section.our-team {
 .our-team-item {
   display: flex;
 }
+.social-media-icons {
+  display: inline-flex;
+  margin-right: 10px;
+}
+.social-icon {
+  width: 44px;
+  height: 44px;
+}
 .our-team-image {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -270,6 +286,17 @@ section.our-team {
 .our-team-text {
   font-weight: 400;
   color: inherit;
+}
+/* Clients */
+.clients-box:not(:last-child) {
+  display: inline-flex;
+  margin-right: 30px;
+}
+.clients {
+  width: 170px;
+  height: 92px;
+  padding: 16px 32px;
+  border: 1px solid #AFB1B8;
 }
 /* Section portfolio */
 .portfolio-button-list {
