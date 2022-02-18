@@ -450,8 +450,8 @@ footer {
   fill: rgba(255, 255, 255, 0.1);
 }
 .footer-social-icon:hover,
-.footer-social-icon:focus, {
-  color: var(--accent-color);
+.footer-social-icon:focus {
+  fill: var(--accent-color);
 }
 a {
   text-decoration: none;
