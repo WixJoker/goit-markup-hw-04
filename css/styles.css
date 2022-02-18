@@ -430,9 +430,6 @@ footer {
 .footer-contacts {
   color: rgba(255, 255, 255, 0.6);
 }
-.footer-social-media-box {
-  margin-bottom: 20px;
-}
 .footer-social-media-title {
   margin-bottom: 20px;
 
@@ -453,7 +450,8 @@ footer {
   width: 44px;
   height: 44px;
 }
-.footer-social-icon:hover {
+.footer-social-icon:hover,
+.footer-social-icon:focus, {
   background-color: var(--accent-color);
 }
 a {
