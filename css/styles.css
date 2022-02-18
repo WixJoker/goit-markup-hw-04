@@ -260,8 +260,8 @@ section.our-team {
   margin-right: 10px;
 }
 .social-icon:hover {
-  background-color: var(--primary-background-color);
-  fill: var(--accent-color);
+  background-color: var(--accent-color);
+  color: var(--primary-background-color);
   border-radius: 10px;
 }
 .our-team-image {
@@ -299,8 +299,10 @@ section.our-team {
   margin-bottom: 16px;
 }
 /* Clients */
-ul .clients-box {
+.clients-item {
   display: inline-flex;
+}
+.clients-box {
   margin-right: 30px;
 
   width: 170px;
@@ -311,21 +313,13 @@ ul .clients-box {
  .clients-box:last-child {
    margin-right: 0;
  }
- .clients-box button {
-   width: 106px;
-   height: 60px;
-   cursor: pointer;
-   margin: 0;
- }
- }
  .clients: {
-   fill: currentColor;
    width: 106px;
    height: 60px;
  }
  .clients:hover,
  .clients:focus {
-fill: var(--accent-color);
+   fill: var(--accent-color);
  }
 /* Section portfolio */
 .portfolio-button-list {
@@ -457,7 +451,7 @@ footer {
 }
 .footer-social-icon:hover,
 .footer-social-icon:focus, {
-  background-color: var(--accent-color);
+  color: var(--accent-color);
 }
 a {
   text-decoration: none;
