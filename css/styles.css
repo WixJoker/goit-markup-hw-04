@@ -99,13 +99,11 @@ ul {
 .site-nav .header-link.current {
   color: var(--accent-color);
 }
-.header-contacts:hover,
-.header-contacts:focus,
 .envelope-icon:hover,
-.smartphone-icon:hover {
-  cursor: pointer;
-  fill: var(--accent-color);
-  color: var(--accent-color);
+.envelope-icon:focus,
+.smartphone-icon:hover,
+.smartphone-icon:focus {
+  fill: currentColor;
 }
 .smartphone-icon,
 .envelope-icon {
@@ -269,11 +267,10 @@ section.our-team {
   display: flex;
 }
 .social-media-icons {
-  display: inline-flex;
-  padding-left: 32px;
+  display: flex;
+  justify-content: center;
 }  
 .social-media-icons li {
-  justify-content: center;
   width: 44px;
   height: 44px;
 }
