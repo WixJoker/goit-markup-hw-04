@@ -468,6 +468,9 @@ footer {
 .footer-contacts {
   color: rgba(255, 255, 255, 0.6);
 }
+.footer-social-media-box {
+  margin-right: 0;
+}
 .footer-social-media-title {
   margin-bottom: 20px;
 
