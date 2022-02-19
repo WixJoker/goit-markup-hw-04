@@ -282,8 +282,8 @@ section.our-team {
   height: 20px;
   fill: #afb1b8;
 }
-.social-media-icons li a:hover,
-.social-media-icons li a:focus {
+.social-media-icons a:hover,
+.social-media-icons a:focus {
   background-color: var(--accent-color);
 }
 .social-icon:hover,
