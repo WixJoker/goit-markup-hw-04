@@ -89,10 +89,6 @@ ul {
 .site-nav .header-link.current {
   color: var(--accent-color);
 }
-a:hover,
-a:focus, {
-  color: var(--accent-color);
-}
 .envelope-icon:hover,
 .smartphone-icon:hover {
   cursor: pointer;
