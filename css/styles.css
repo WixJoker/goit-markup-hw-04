@@ -437,7 +437,7 @@ footer {
   padding-bottom: 60px;
 }
 .footer-container {
-  display: inline-flex;
+  display: flex;
   align-items: baseline;
 }
 .footer-container div {
